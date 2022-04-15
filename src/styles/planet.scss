@@ -52,9 +52,9 @@ $ringWidth: 13rem;
     transform: translate(-50%, -50%);
     .stars {
       width: 170px;
-      top: 170px;
+      top: 13rem;
       position: absolute;
-      left: 220px;
+      left: 8rem;
       div:nth-child(1) {
         width: 20px;
         position: absolute;
@@ -91,8 +91,8 @@ $ringWidth: 13rem;
     .stars:nth-child(2) {
       position: relative;
       transform: scale(0.9);
-      top: -20px;
-      left: 80px;
+      top: -1rem;
+      left: 6rem;
       div {
         animation-delay: 0.5s;
       }
@@ -108,9 +108,9 @@ $ringWidth: 13rem;
     }
     .stars:nth-child(4) {
       position: relative;
-      transform: scale(0.5);
-      top: -50px;
-      left: 350px;
+      transform: scale(0.8);
+      top: -3rem;
+      left: 26rem;
       div {
         animation-delay: 0.8s;
       }
@@ -118,10 +118,28 @@ $ringWidth: 13rem;
     .stars:nth-child(5) {
       position: relative;
       transform: scale(0.5);
-      top: 0px;
-      left: 400px;
+      top: 0;
+      left: 33rem;
       div {
         animation-delay: 0.7s;
+      }
+    }
+    .stars:nth-child(6) {
+      position: relative;
+      transform: scale(1);
+      top: 10rem;
+      left: 35rem;
+      div {
+        animation-delay: 1s;
+      }
+    }
+    .stars:nth-child(7) {
+      position: relative;
+      transform: scale(0.5);
+      top: 13rem;
+      left: 25rem;
+      div {
+        animation-delay: 1s;
       }
     }
   }

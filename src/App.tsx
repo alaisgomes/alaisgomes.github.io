@@ -1,6 +1,6 @@
 import React from "react";
 import "styles/index.scss";
-import Topbar from "views/Toolbar";
+import Topbar from "components/Toolbar";
 import MainContainer from "views/Main";
 import { ThemeProvider } from "@mui/material";
 import theme from "./theme/theme";
